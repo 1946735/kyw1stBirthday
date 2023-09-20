@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import { useEffect, useState } from "react";
 import './Map.css';
 import isMobile from '../../utils/isMobile';
-import { SiKakao } from 'react-icons/si';
+//import { SiKakao } from 'react-icons/si';
 
 const Map = () => {
     const [cnt, setCnt] = useState(0);
@@ -39,8 +39,9 @@ const Map = () => {
     
     function tMapLinkTo() {
         if(!isMobile()) return alert('모바일에서만 사용 가능합니다.');
-        window.open(`https://apis.openapi.sk.com/tmap/app/routes?appKey=AvH2FYuxSc6ARNU1ejGGj8UYBwiZavbQ3Gib84QS&name=상록아트홀&lon=${lon}&lat=${lat}`, '_blank');
-        
+        window.open(`https://apis.openapi.sk.com/tmap/app/routes?appKey=IGILdI5M713IiJOtZuzwn7dEdkBfnc0W3U9Ui8ZG&name=상록아트홀&lon=${lon}&lat=${lat}`, '_blank');
+        //window.open(`https://apis.openapi.sk.com/tmap/app/routes?appKey=AvH2FYuxSc6ARNU1ejGGj8UYBwiZavbQ3Gib84QS&name=상록아트홀&lon=${lon}&lat=${lat}`, '_blank');
+        //IGILdI5M713IiJOtZuzwn7dEdkBfnc0W3U9Ui8ZG
     }
     
     function naverMapLinkTo() {
