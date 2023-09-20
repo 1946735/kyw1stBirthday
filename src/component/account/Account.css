@@ -1,0 +1,19 @@
+.account_wrap {
+}
+
+.account_btn_wrap {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.MuiAccordionSummary-root {
+    background-color: #d5b29c !important;
+    min-height: 5vh;
+}
+
+.MuiAccordionSummary-content {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}

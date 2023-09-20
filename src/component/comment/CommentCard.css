@@ -1,0 +1,56 @@
+
+
+.commentCardWrap {
+    margin-left: 2%;
+    width: 90%;
+    /* height: 25vh;    */
+    height: 270px;   
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.comment {
+    width: 90%;
+    height: 190px;
+    padding: 0;
+    margin: 5px auto;
+    line-height: 1.3rem;
+    font-size: 0.8rem;
+    overflow:  scroll;
+    white-space: pre-wrap;
+}
+
+.commentFooter {
+    margin-top: 5%;
+    font-size: 0.8rem;
+}
+
+.commentFooter > div{
+    line-height: 1rem;
+}
+
+.commentFooter > div:nth-child(2){
+    color: #a6a6a6;
+}
+
+@media (min-width: 500px){
+    .commentCardWrap {
+        height: 350px;
+    }
+    
+    .comment {
+        height: 270px;
+        overflow:  auto;
+    }
+    
+    .comment::-webkit-scrollbar { 
+        background-color: #fff;
+        width: 5px;
+    }
+
+
+    .comment::-webkit-scrollbar-thumb { 
+        background-color: #b0b0b0;
+    }
+
+}

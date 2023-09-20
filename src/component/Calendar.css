@@ -1,0 +1,65 @@
+.calendar_whole_wrapper{
+    position: relative;
+    margin-bottom: 7%;
+}
+.border_img {
+    position: absolute;
+    top: 2%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.calendar_wrapper {
+    padding-top: 10%;
+    padding-bottom: 3%;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.calendar {
+    padding-top: 2%;
+}
+
+.calendar_row_wrap,.calendar_row_wrap_weekend {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+.calendar_row_wrap_weekend {
+    height: 2rem;
+}
+
+.calendar_row_wrap_weekend > div {
+    width: 14.2%;
+    font-size: 0.9rem;
+}
+
+
+.calendar_sat {
+    color: #0099ff;
+}
+.calendar_sun {
+    color: #ff4d4d;
+}
+
+.calendar_row_wrap > div {
+    width: 14.2%;
+    height: 1.5rem;
+}
+
+.calendar_row_wrap > div > span {
+    font-size: 0.9rem;
+    line-height: 3.5rem;
+}
+
+.d_day_ {
+    background-color: #DB7093;
+    border-radius: 2.5rem;
+}
+
+.d_day_ > span{
+    font-size: 10.0rem !important;
+    color: #fff;
+}

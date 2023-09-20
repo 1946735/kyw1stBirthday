@@ -1,0 +1,13 @@
+.footer_wrap {
+}
+
+.fix_button {
+    position: fixed;
+    bottom: 3vh;
+    right: 2vw;
+    z-index: 9999;
+}
+
+.fix_button button {
+    font-family: 'KakaoBold' !important;
+}

@@ -1,0 +1,12 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.gallery_wrapper {
+    margin: 10% auto;
+    width: 95%;   
+    border: 0;
+}
+
+.image-gallery-slide {
+    padding-left: 1%;
+    padding-right: 1%;
+}

@@ -1,0 +1,52 @@
+.address_wrap {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 100%;
+    min-height: 30vh;
+}
+.address_text_wrap{
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.address_text_wrap  div {
+    color: #89757a;
+    text-align: left;
+}
+ 
+.weddingHall_name {
+    color: #000 !important;
+}
+
+.address_text_wrap td{
+    text-align: left !important;
+    margin-left: 2vw;
+    line-height: 1.2rem;
+}
+.address_text_wrap th {
+    width: 25vw;
+    padding-right: 2vw;
+    text-align: right;
+    vertical-align: top;
+}
+
+
+.address_table_subject > th{
+    padding-left: 5vw;
+    padding-top: 2vh;
+    text-align: left !important;
+    font-size: 1.2rem;
+}
+
+.shuttle{
+    text-decoration: underline;
+    text-decoration-color: #ff6a2f;
+}
+
+.shuttleBtnWrap > div {
+    text-align: right;
+}
+
+.copyBtn{
+    padding-left: 0 !important;
+}
+
