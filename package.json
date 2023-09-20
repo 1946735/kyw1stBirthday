@@ -2,7 +2,7 @@
     "name": "app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://1946735.github.io/YW1stBirthDay/",
+    "homepage": "https://1946735.github.io/kyw1stBirthday/",
     "dependencies": {
         "@emotion/react": "^11.10.6",
         "@emotion/styled": "^11.10.6",
