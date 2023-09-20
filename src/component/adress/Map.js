@@ -46,7 +46,8 @@ const Map = () => {
     
     function naverMapLinkTo() {
         if(!isMobile()) return alert('모바일에서만 사용 가능합니다.');
-        let url = `nmap://route/public?parameter=value&appname=WeddingInvitation`;
+        //let url = `nmap://route/public?parameter=value&appname=WeddingInvitation`;
+        let url = `nmap://route/public?parameter=value&appname=kyw1stBirthday`;
         url += `&dlat=${lat}`;
         url += `&dlng=${lon}`;
         url += `&dname=${encodeURI('테이크호텔')}`
