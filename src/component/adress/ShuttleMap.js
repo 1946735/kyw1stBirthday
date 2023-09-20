@@ -5,8 +5,10 @@ import CloseIcon from '@mui/icons-material/Close';
 
 const ShuttleMap = ({closeCallback, isManual}) => {
     const [cnt, setCnt] = useState(0);
-    const lat = 37.50435461910793;
-    const lon = 127.04772659052212;
+    const lat = 37.4191538;
+    const lon = 126.883217;
+    // const lat = 37.50435461910793;!2d
+    // const lon = 127.04772659052212;
     
     useEffect(() => {
         if(cnt < 1) setCnt(prev => ++prev);
@@ -39,8 +41,8 @@ const ShuttleMap = ({closeCallback, isManual}) => {
     
     return (
         <div className="shuttleMapWrapper">
-            <div  style={{fontSize: '1.3rem'}}>셔틀버스 상세위치 안내</div>
-            <div>선릉역 5번출구 앞(5분 간격 순환버스)</div>
+            <div  style={{fontSize: '1.3rem'}}>대중교통 안내</div>
+            <div>광명역 1번출구 도보 5분</div>
             <div className="shuttleMap" />
             {
                 isManual === true ? null

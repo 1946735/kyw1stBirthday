@@ -6,8 +6,8 @@ import isMobile from '../../utils/isMobile';
 
 const Map = () => {
     const [cnt, setCnt] = useState(0);
-    const lat = 37.419126;
-    const lon = 126.883228;
+    const lat = 37.4191538;
+    const lon = 126.883217;
     
     useEffect(() => {
         if(cnt < 1) setCnt(prev => ++prev);
@@ -39,8 +39,8 @@ const Map = () => {
     
     function tMapLinkTo() {
         if(!isMobile()) return alert('모바일에서만 사용 가능합니다.');
-        window.open(`https://apis.openapi.sk.com/tmap/app/routes?appKey=IGILdI5M713IiJOtZuzwn7dEdkBfnc0W3U9Ui8ZG&name=상록아트홀&lon=${lon}&lat=${lat}`, '_blank');
-        //window.open(`https://apis.openapi.sk.com/tmap/app/routes?appKey=AvH2FYuxSc6ARNU1ejGGj8UYBwiZavbQ3Gib84QS&name=상록아트홀&lon=${lon}&lat=${lat}`, '_blank');
+        window.open(`https://apis.openapi.sk.com/tmap/app/routes?appKey=IGILdI5M713IiJOtZuzwn7dEdkBfnc0W3U9Ui8ZG&name=테이크호텔&lon=${lon}&lat=${lat}`, '_blank');
+        //window.open(`https://apis.openapi.sk.com/tmap/app/routes?appKey=AvH2FYuxSc6ARNU1ejGGj8UYBwiZavbQ3Gib84QS&name=테이크호텔&lon=${lon}&lat=${lat}`, '_blank');
         //IGILdI5M713IiJOtZuzwn7dEdkBfnc0W3U9Ui8ZG
     }
     
