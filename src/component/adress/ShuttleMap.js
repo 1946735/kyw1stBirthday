@@ -5,9 +5,9 @@ import CloseIcon from '@mui/icons-material/Close';
 
 const ShuttleMap = ({closeCallback, isManual}) => {
     const [cnt, setCnt] = useState(0);
-    const lat = 37.418494;
-    const lon = 126.883721;
-    // const lat = 37.50435461910793; 
+    const lat = 37.4191538;
+    const lon = 126.883217;
+    // const lat = 37.50435461910793;!2d
     // const lon = 127.04772659052212;
     
     useEffect(() => {
