@@ -63,7 +63,9 @@ const WriteComment = ({closeCallback}) => {
             return toast.error('내용을 입력해주세요');
         };
         setError((prev) => ({...prev, comment: false}));
+        
         const res = await insertComment(author, password, comment);
+        
         if(res.result) {
             toast.success(res.msg);
             closeCallback();
