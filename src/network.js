@@ -1,14 +1,14 @@
 import { APIPATH, BASEURL } from "./constants"
 
 export const visitorCheck = () => {
-    fetch(BASEURL + APIPATH.WEDDING + 'visitorCheck', 
+    fetch(BASEURL + APIPATH.BIRTHDAY + 'visitorCheck', 
     {
         method: 'post',
     });
 }
 
 export const getComments = async (page) => {
-    const res = await fetch(BASEURL + APIPATH.WEDDING + `comment/${page}`, 
+    const res = await fetch(BASEURL + APIPATH.BIRTHDAY + `comment/${page}`, 
     {
         method: 'get',
     });
@@ -23,7 +23,7 @@ export const insertComment = async (author, password, comment) => {
         comment,
     }
     try{
-        const res = await fetch(BASEURL + APIPATH.WEDDING + 'insertComment', 
+        const res = await fetch(BASEURL + APIPATH.BIRTHDAY + 'insertComment', 
             {
                 method: 'post',
                 body: JSON.stringify(data),
@@ -37,7 +37,7 @@ export const insertComment = async (author, password, comment) => {
 
 export const deleteComments = async (idx, password) => {
     const query = `idx=${idx}&password=${password}`
-    const res = await fetch(BASEURL + APIPATH.WEDDING + `deleteComment?${query}`, 
+    const res = await fetch(BASEURL + APIPATH.BIRTHDAY + `deleteComment?${query}`, 
     {
         method: 'post'
     });
