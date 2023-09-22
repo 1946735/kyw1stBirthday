@@ -17,7 +17,7 @@ const Footer = ({template}) => {
     
     return (
         <div className="footer_wrap">
-            <span className="f-xs">Copyright © 2023 KHG</span>
+            <span className="f-xs">Copyright © 2023 KMS</span>
             <div className="fix_button">
                 <Button variant="contained"
                     startIcon={<RiKakaoTalkFill />}
