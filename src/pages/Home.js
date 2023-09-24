@@ -23,7 +23,7 @@ const Home = () => {
         setTemplate(template);
         
         const mainImg = new Image();
-        mainImg.src = require('../assets/images/main_img1.webp');
+        mainImg.src = require('../assets/images/main_img.webp');
         
         mainImg.onload = () => setIsImgReady(true);
     }, [])

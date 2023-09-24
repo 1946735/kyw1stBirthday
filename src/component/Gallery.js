@@ -5,12 +5,6 @@ import isMobile from "../utils/isMobile";
 
 const _images = [
     {
-        original: require('../assets/images/YWPhotos/5.JPG'),
-    },
-    {
-        original: require('../assets/images/YWPhotos/4.JPG'),
-    },
-    {
         original: require('../assets/images/YWPhotos/1.JPG'),
     },
     {
@@ -18,6 +12,12 @@ const _images = [
     },
     {
         original: require('../assets/images/YWPhotos/3.JPG'),
+    },
+    {
+        original: require('../assets/images/YWPhotos/4.JPG'),
+    },
+    {
+        original: require('../assets/images/YWPhotos/5.JPG'),
     },
     {
         original: require('../assets/images/YWPhotos/6.JPG'),
@@ -39,13 +39,7 @@ const _images = [
     },
     {
         original: require('../assets/images/YWPhotos/12.JPG'),
-    },
-    {
-        original: require('../assets/images/YWPhotos/13.JPG'),
-    },
-    {
-        original: require('../assets/images/YWPhotos/14.JPG'),
-    },
+    }
 ];
 
 const Gallery = () => {
