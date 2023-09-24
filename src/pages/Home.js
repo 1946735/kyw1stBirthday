@@ -63,9 +63,7 @@ const Home = () => {
                             <Account />
                         </AnimatedWrap>   
                     }
-                    <AnimatedWrap>
-                        <Comment />
-                    </AnimatedWrap>
+           
                     <Footer template={template} />
                 </>
             }

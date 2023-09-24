@@ -7,11 +7,15 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 const Footer = ({template}) => {
-    let kakaoTemplateId = template == 'na' ? 93460 : 90482;
+    //ID 972424
+    //let kakaoTemplateId = template == 'na' ? 93460 : 90482;
+    let kakaoTemplateId = template == 'na' ? 98776 : 98778;
+    //let kakaoTemplateId = 972424;
     
     function sendKakaoLink() {
         window.Kakao.Share.sendCustom({
             templateId: kakaoTemplateId,
+            //templateId: 972424,
           });
     }
     

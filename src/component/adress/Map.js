@@ -67,12 +67,6 @@ const Map = () => {
                     <div>카카오</div>
                 </div>
                 <div>
-                    <Button onClick={naverMapLinkTo}>
-                        <img className="map_icon" src={require('../../assets/images/naver_map.png')}/>
-                    </Button>
-                    <div>네이버</div>
-                </div>
-                <div>
                     <Button onClick={tMapLinkTo}>
                         <img className="map_icon" src={require('../../assets/images/t_map.png')}/>
                     </Button>
