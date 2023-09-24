@@ -66,7 +66,7 @@ const Account = () => {
                                 title='신부'
                                 bank='국민'
                                 name='김보경'
-                                account='**'
+                                account='960102-01-412157'
                             />
                         </div>
                     </AccordionDetails>
