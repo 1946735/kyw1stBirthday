@@ -13,10 +13,12 @@ const MainImg = () => {
                     <div className="subject_wrapper_box1">
                         <div className="subject_wrapper_box2">
                             <div className="subject_date1">
-                            <span className="subject_font">김민석</span> 
-                            <span className="f-m"> 그리고</span>
-                            <span className="subject_font"> 김보경</span></div>
-                            <div className="subject_location">23. 10. 22. 일요일 오후 12시 00분</div>
+                                <span className="subject_font">김</span>
+                                <span className="subject_font">연</span>
+                                <span className="subject_font">우</span>
+                                <span className="f-m"> 1stBirthDay</span>
+                            </div>
+                            <div className="subject_location">23. 10. 22. 일요일 낮 12시</div>
                             <div className="subject_location">테이크호텔 4층 에이치가든</div>                            
                     </div>
                 </div>

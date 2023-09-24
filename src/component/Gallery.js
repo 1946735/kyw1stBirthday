@@ -36,10 +36,7 @@ const _images = [
     },
     {
         original: require('../assets/images/YWPhotos/11.JPG'),
-    },
-    {
-        original: require('../assets/images/YWPhotos/12.JPG'),
-    }
+    }       
 ];
 
 const Gallery = () => {
@@ -75,7 +72,7 @@ const Gallery = () => {
     
     return (
         <div className="gallery_wrapper">
-            <div className="f-xl">갤러리</div>
+            <div className="f-xl">사진첩</div>
             {/* <div className="subtitle">GALLERY</div> */}
             <ImageGallery items={images}
                     showFullscreenButton={false}
