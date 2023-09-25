@@ -15,7 +15,7 @@ const MainImg = () => {
                             <div className="subject_date1">
                                 <span className="subject_font">김</span>
                                 <span className="subject_font">연</span>
-                                <span className="subject_font">우 1stBirthday</span>                                
+                                <span className="subject_font">우 1st Birthday</span>                                
                             </div>
                             <div className="subject_location">23. 10. 22. 일요일 낮 12시</div>
                             <div className="subject_location">광명 테이크호텔 4층 에이치가든</div>                            
