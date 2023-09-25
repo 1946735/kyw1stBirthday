@@ -19,18 +19,6 @@ const Account = () => {
                     </AccordionSummary>
                     <AccordionDetails id="accordion1">
                         <div>
-                            <Account_card 
-                                title='할아버지'
-                                bank='새마을'
-                                name='김태용'
-                                account='**'
-                            />
-                            <Account_card 
-                                title='할머니'
-                                bank='국민'
-                                name='안부산'
-                                account='**'
-                            />
                              <Account_card 
                                 title='아빠'
                                 bank='국민'
@@ -49,21 +37,9 @@ const Account = () => {
                         <div>엄마</div>
                     </AccordionSummary>
                     <AccordionDetails id="accordion1">
-                        <div>
+                        <div>                            
                             <Account_card 
-                                title='외할아버지'
-                                bank='국민'
-                                name='김철수'
-                                account='**'
-                            />
-                            <Account_card 
-                                title='외할머니'
-                                bank='신한'
-                                name='유영이'
-                                account='**'
-                            />
-                            <Account_card 
-                                title='신부'
+                                title='엄마'
                                 bank='국민'
                                 name='김보경'
                                 account='960102-01-412157'
