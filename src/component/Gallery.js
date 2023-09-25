@@ -36,10 +36,7 @@ const _images = [
     },
     {
         original: require('../assets/images/YWPhotos/11.JPG'),
-    },
-    {
-        original: require('../assets/images/YWPhotos/12.JPG'),
-    }       
+    } 
 ];
 
 const Gallery = () => {
