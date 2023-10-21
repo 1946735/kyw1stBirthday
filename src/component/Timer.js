@@ -52,7 +52,7 @@ const Timer = () => {
     return (
         <div className="timer_wrapper">
             <div className="timer_line">
-                <div className="timer_title">{isAfter === true ? '돌잔치까지' : '돌잔치 시작한 지'}</div>
+                <div className="timer_title">{isAfter === true ? '돌잔치 시작한 지' : '돌잔치까지'}</div>
                 <div className="miniCardWrap">
                     <MiniCard top={remainDttm.d} bottom='DAY'/>
                     <MiniCard top={remainDttm.h} bottom='HOUR'/>
