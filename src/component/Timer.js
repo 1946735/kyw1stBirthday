@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { pad } from "../utils/StringUtils";
 import './Timer.css';
 
-const d_day = new Date('2022-10-28 15:48:00').getTime();
+const d_day = new Date('2023-10-22 12:00:00').getTime();
 const isAfter = new Date().getTime() - d_day > 0 ? true : false;
 
 const Timer = () => {
@@ -52,7 +52,7 @@ const Timer = () => {
     return (
         <div className="timer_wrapper">
             <div className="timer_line">
-                <div className="timer_title">{isAfter === true ? '연우 태어난지' : '연우 나오기까지'}</div>
+                <div className="timer_title">{isAfter === true ? '돌잔치까지' : '돌잔치 시작한 지'}</div>
                 <div className="miniCardWrap">
                     <MiniCard top={remainDttm.d} bottom='DAY'/>
                     <MiniCard top={remainDttm.h} bottom='HOUR'/>
