@@ -12,7 +12,12 @@ const Map = () => {
     useEffect(() => {
         if(cnt < 1) setCnt(prev => ++prev);
         else if(cnt == 1) {
- 
+
+            const mainImg = new Image();
+            mainImg.src = require('../assets/images/take_hotel_1.jpg');
+            
+            mainImg.onload = () => setIsImgReady(true);
+
             const container = document.querySelector('.map');
             const options = {
                 center: new window.kakao.maps.LatLng(lat, lon),
@@ -71,6 +76,12 @@ const Map = () => {
                         <img className="map_icon" src={require('../../assets/images/t_map.png')}/>
                     </Button>
                     <div>티맵</div>
+                </div>
+                <div>
+                <AnimatedWrap>                        
+                        <MainImg />
+                        <div>참고사진</div>
+                </AnimatedWrap>
                 </div>
             </div>
         </div>
