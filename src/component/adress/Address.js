@@ -11,7 +11,7 @@ import isMobile from "../../utils/isMobile";
 import { useState } from "react";
 import { toast } from "react-toastify";
 import ShuttleMap from "./ShuttleMap";
-
+import React, { useEffect, useState } from 'react';
 
 const Address = () => {
     const [shuttleModalOn, setShuttleModalOn] = useState(false);
@@ -35,8 +35,7 @@ const Address = () => {
     useEffect(() => {
         const params = new URLSearchParams(window.location.search);
         let template = params.get('template');
-        setTemplate(template);
-        
+        setTemplate(template);       
         const mainImg = new Image();
         mainImg.src = require('../assets/images/take_hotel_1.jpg');
         
