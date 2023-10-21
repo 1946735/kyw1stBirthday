@@ -32,6 +32,16 @@ const Address = () => {
         if(expire && new Date().getTime() < expire) return;
         setShuttleModalOn(true);
     }
+    useEffect(() => {
+        const params = new URLSearchParams(window.location.search);
+        let template = params.get('template');
+        setTemplate(template);
+        
+        const mainImg = new Image();
+        mainImg.src = require('../assets/images/take_hotel_1.jpg');
+        
+        mainImg.onload = () => setIsImgReady(true);
+    }, [])
     return (
         <div className="address_wrap">
             <div className="f-xl">오시는 길</div>
@@ -48,8 +58,11 @@ const Address = () => {
                     </Button>
                 </div>
                 <br></br><br></br>
-                <AnimatedWrap>
+                <AnimatedWrap>                                   
+                                 
                     <div className="f-l">자가용 안내</div>
+                    <MainImg />
+                        <div>주차장 참고사진</div>   
                     <div>
                         네비게이션 "테이크호텔" 또는 <br/>"경기 광명시 신기로 22" 입력<br/>
                         주차 : 지하주차장 5층 추천<br/>
